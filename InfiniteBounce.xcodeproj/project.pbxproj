@@ -9,24 +9,68 @@
 /* Begin PBXBuildFile section */
 		CDCA5FF728E3A6470043AFC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA5FF628E3A6470043AFC2 /* AppDelegate.swift */; };
 		CDCA5FF928E3A6470043AFC2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDCA5FF828E3A6470043AFC2 /* GameScene.sks */; };
-		CDCA5FFB28E3A6470043AFC2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDCA5FFA28E3A6470043AFC2 /* Actions.sks */; };
 		CDCA5FFD28E3A6470043AFC2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA5FFC28E3A6470043AFC2 /* GameScene.swift */; };
 		CDCA5FFF28E3A6470043AFC2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA5FFE28E3A6470043AFC2 /* GameViewController.swift */; };
 		CDCA600228E3A6470043AFC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCA600028E3A6470043AFC2 /* Main.storyboard */; };
 		CDCA600428E3A6490043AFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCA600328E3A6490043AFC2 /* Assets.xcassets */; };
 		CDCA600728E3A6490043AFC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCA600528E3A6490043AFC2 /* LaunchScreen.storyboard */; };
+		CDCA602328E3A6ED0043AFC2 /* 5.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA600D28E3A6EC0043AFC2 /* 5.wav */; };
+		CDCA602428E3A6ED0043AFC2 /* 13.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA600E28E3A6EC0043AFC2 /* 13.wav */; };
+		CDCA602528E3A6ED0043AFC2 /* 9.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA600F28E3A6EC0043AFC2 /* 9.wav */; };
+		CDCA602628E3A6ED0043AFC2 /* 14.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601028E3A6EC0043AFC2 /* 14.wav */; };
+		CDCA602728E3A6ED0043AFC2 /* 6.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601128E3A6EC0043AFC2 /* 6.wav */; };
+		CDCA602828E3A6ED0043AFC2 /* 7.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601228E3A6ED0043AFC2 /* 7.wav */; };
+		CDCA602928E3A6ED0043AFC2 /* 16.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601328E3A6ED0043AFC2 /* 16.wav */; };
+		CDCA602A28E3A6ED0043AFC2 /* 18.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601428E3A6ED0043AFC2 /* 18.wav */; };
+		CDCA602B28E3A6ED0043AFC2 /* 19.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601528E3A6ED0043AFC2 /* 19.wav */; };
+		CDCA602C28E3A6ED0043AFC2 /* 8.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601628E3A6ED0043AFC2 /* 8.wav */; };
+		CDCA602D28E3A6ED0043AFC2 /* 20.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601728E3A6ED0043AFC2 /* 20.wav */; };
+		CDCA602E28E3A6ED0043AFC2 /* 22.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601828E3A6ED0043AFC2 /* 22.wav */; };
+		CDCA602F28E3A6ED0043AFC2 /* 4.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601928E3A6ED0043AFC2 /* 4.wav */; };
+		CDCA603028E3A6ED0043AFC2 /* 21.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601A28E3A6ED0043AFC2 /* 21.wav */; };
+		CDCA603128E3A6ED0043AFC2 /* 2.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601B28E3A6ED0043AFC2 /* 2.wav */; };
+		CDCA603228E3A6ED0043AFC2 /* 11.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601C28E3A6ED0043AFC2 /* 11.wav */; };
+		CDCA603328E3A6ED0043AFC2 /* 10.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601D28E3A6ED0043AFC2 /* 10.wav */; };
+		CDCA603428E3A6ED0043AFC2 /* 1.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601E28E3A6ED0043AFC2 /* 1.wav */; };
+		CDCA603528E3A6ED0043AFC2 /* 12.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA601F28E3A6ED0043AFC2 /* 12.wav */; };
+		CDCA603628E3A6ED0043AFC2 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA602028E3A6ED0043AFC2 /* 3.wav */; };
+		CDCA603728E3A6ED0043AFC2 /* 15.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA602128E3A6ED0043AFC2 /* 15.wav */; };
+		CDCA603828E3A6ED0043AFC2 /* 17.wav in Resources */ = {isa = PBXBuildFile; fileRef = CDCA602228E3A6ED0043AFC2 /* 17.wav */; };
+		CDCA603A28E3AA080043AFC2 /* BouncerNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCA603928E3AA080043AFC2 /* BouncerNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CDCA5FF328E3A6470043AFC2 /* InfiniteBounce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteBounce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCA5FF628E3A6470043AFC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDCA5FF828E3A6470043AFC2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		CDCA5FFA28E3A6470043AFC2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		CDCA5FFC28E3A6470043AFC2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		CDCA5FFE28E3A6470043AFC2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		CDCA600128E3A6470043AFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDCA600328E3A6490043AFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDCA600628E3A6490043AFC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDCA600D28E3A6EC0043AFC2 /* 5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 5.wav; sourceTree = "<group>"; };
+		CDCA600E28E3A6EC0043AFC2 /* 13.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 13.wav; sourceTree = "<group>"; };
+		CDCA600F28E3A6EC0043AFC2 /* 9.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 9.wav; sourceTree = "<group>"; };
+		CDCA601028E3A6EC0043AFC2 /* 14.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 14.wav; sourceTree = "<group>"; };
+		CDCA601128E3A6EC0043AFC2 /* 6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 6.wav; sourceTree = "<group>"; };
+		CDCA601228E3A6ED0043AFC2 /* 7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 7.wav; sourceTree = "<group>"; };
+		CDCA601328E3A6ED0043AFC2 /* 16.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 16.wav; sourceTree = "<group>"; };
+		CDCA601428E3A6ED0043AFC2 /* 18.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 18.wav; sourceTree = "<group>"; };
+		CDCA601528E3A6ED0043AFC2 /* 19.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 19.wav; sourceTree = "<group>"; };
+		CDCA601628E3A6ED0043AFC2 /* 8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8.wav; sourceTree = "<group>"; };
+		CDCA601728E3A6ED0043AFC2 /* 20.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 20.wav; sourceTree = "<group>"; };
+		CDCA601828E3A6ED0043AFC2 /* 22.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 22.wav; sourceTree = "<group>"; };
+		CDCA601928E3A6ED0043AFC2 /* 4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4.wav; sourceTree = "<group>"; };
+		CDCA601A28E3A6ED0043AFC2 /* 21.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 21.wav; sourceTree = "<group>"; };
+		CDCA601B28E3A6ED0043AFC2 /* 2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2.wav; sourceTree = "<group>"; };
+		CDCA601C28E3A6ED0043AFC2 /* 11.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 11.wav; sourceTree = "<group>"; };
+		CDCA601D28E3A6ED0043AFC2 /* 10.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 10.wav; sourceTree = "<group>"; };
+		CDCA601E28E3A6ED0043AFC2 /* 1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1.wav; sourceTree = "<group>"; };
+		CDCA601F28E3A6ED0043AFC2 /* 12.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 12.wav; sourceTree = "<group>"; };
+		CDCA602028E3A6ED0043AFC2 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
+		CDCA602128E3A6ED0043AFC2 /* 15.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 15.wav; sourceTree = "<group>"; };
+		CDCA602228E3A6ED0043AFC2 /* 17.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 17.wav; sourceTree = "<group>"; };
+		CDCA603928E3AA080043AFC2 /* BouncerNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncerNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +105,33 @@
 			children = (
 				CDCA5FF628E3A6470043AFC2 /* AppDelegate.swift */,
 				CDCA5FF828E3A6470043AFC2 /* GameScene.sks */,
-				CDCA5FFA28E3A6470043AFC2 /* Actions.sks */,
 				CDCA5FFC28E3A6470043AFC2 /* GameScene.swift */,
+				CDCA603928E3AA080043AFC2 /* BouncerNode.swift */,
 				CDCA5FFE28E3A6470043AFC2 /* GameViewController.swift */,
 				CDCA600028E3A6470043AFC2 /* Main.storyboard */,
 				CDCA600328E3A6490043AFC2 /* Assets.xcassets */,
+				CDCA601E28E3A6ED0043AFC2 /* 1.wav */,
+				CDCA601B28E3A6ED0043AFC2 /* 2.wav */,
+				CDCA602028E3A6ED0043AFC2 /* 3.wav */,
+				CDCA601928E3A6ED0043AFC2 /* 4.wav */,
+				CDCA600D28E3A6EC0043AFC2 /* 5.wav */,
+				CDCA601128E3A6EC0043AFC2 /* 6.wav */,
+				CDCA601228E3A6ED0043AFC2 /* 7.wav */,
+				CDCA601628E3A6ED0043AFC2 /* 8.wav */,
+				CDCA600F28E3A6EC0043AFC2 /* 9.wav */,
+				CDCA601D28E3A6ED0043AFC2 /* 10.wav */,
+				CDCA601C28E3A6ED0043AFC2 /* 11.wav */,
+				CDCA601F28E3A6ED0043AFC2 /* 12.wav */,
+				CDCA600E28E3A6EC0043AFC2 /* 13.wav */,
+				CDCA601028E3A6EC0043AFC2 /* 14.wav */,
+				CDCA602128E3A6ED0043AFC2 /* 15.wav */,
+				CDCA601328E3A6ED0043AFC2 /* 16.wav */,
+				CDCA602228E3A6ED0043AFC2 /* 17.wav */,
+				CDCA601428E3A6ED0043AFC2 /* 18.wav */,
+				CDCA601528E3A6ED0043AFC2 /* 19.wav */,
+				CDCA601728E3A6ED0043AFC2 /* 20.wav */,
+				CDCA601A28E3A6ED0043AFC2 /* 21.wav */,
+				CDCA601828E3A6ED0043AFC2 /* 22.wav */,
 				CDCA600528E3A6490043AFC2 /* LaunchScreen.storyboard */,
 			);
 			path = InfiniteBounce;
@@ -129,11 +195,32 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDCA603828E3A6ED0043AFC2 /* 17.wav in Resources */,
+				CDCA603428E3A6ED0043AFC2 /* 1.wav in Resources */,
+				CDCA603228E3A6ED0043AFC2 /* 11.wav in Resources */,
+				CDCA602B28E3A6ED0043AFC2 /* 19.wav in Resources */,
+				CDCA602C28E3A6ED0043AFC2 /* 8.wav in Resources */,
+				CDCA602428E3A6ED0043AFC2 /* 13.wav in Resources */,
+				CDCA603728E3A6ED0043AFC2 /* 15.wav in Resources */,
 				CDCA600228E3A6470043AFC2 /* Main.storyboard in Resources */,
+				CDCA602F28E3A6ED0043AFC2 /* 4.wav in Resources */,
+				CDCA603328E3A6ED0043AFC2 /* 10.wav in Resources */,
 				CDCA5FF928E3A6470043AFC2 /* GameScene.sks in Resources */,
+				CDCA602328E3A6ED0043AFC2 /* 5.wav in Resources */,
+				CDCA602E28E3A6ED0043AFC2 /* 22.wav in Resources */,
+				CDCA602528E3A6ED0043AFC2 /* 9.wav in Resources */,
+				CDCA603628E3A6ED0043AFC2 /* 3.wav in Resources */,
 				CDCA600428E3A6490043AFC2 /* Assets.xcassets in Resources */,
+				CDCA602728E3A6ED0043AFC2 /* 6.wav in Resources */,
+				CDCA602A28E3A6ED0043AFC2 /* 18.wav in Resources */,
+				CDCA602D28E3A6ED0043AFC2 /* 20.wav in Resources */,
 				CDCA600728E3A6490043AFC2 /* LaunchScreen.storyboard in Resources */,
-				CDCA5FFB28E3A6470043AFC2 /* Actions.sks in Resources */,
+				CDCA602828E3A6ED0043AFC2 /* 7.wav in Resources */,
+				CDCA603528E3A6ED0043AFC2 /* 12.wav in Resources */,
+				CDCA603028E3A6ED0043AFC2 /* 21.wav in Resources */,
+				CDCA602928E3A6ED0043AFC2 /* 16.wav in Resources */,
+				CDCA603128E3A6ED0043AFC2 /* 2.wav in Resources */,
+				CDCA602628E3A6ED0043AFC2 /* 14.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDCA603A28E3AA080043AFC2 /* BouncerNode.swift in Sources */,
 				CDCA5FFD28E3A6470043AFC2 /* GameScene.swift in Sources */,
 				CDCA5FFF28E3A6470043AFC2 /* GameViewController.swift in Sources */,
 				CDCA5FF728E3A6470043AFC2 /* AppDelegate.swift in Sources */,
@@ -299,8 +387,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,9 +396,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = individual.InfiniteBounce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -327,8 +418,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,9 +427,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = individual.InfiniteBounce;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
