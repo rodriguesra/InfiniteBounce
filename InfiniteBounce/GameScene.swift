@@ -5,6 +5,7 @@
 //  Created by Rafael Rodrigues on 27/09/22.
 //
 
+import CoreMotion
 import SpriteKit
 
 enum GameState {
@@ -12,6 +13,8 @@ enum GameState {
 }
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
+    let motionManager = CMMotionManager()
+    
     let ballLauncher = SKSpriteNode(imageNamed: "ball")
     var state = GameState.waiting
     
@@ -39,6 +42,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     override func didMove(to view: SKView) {
         physicsBody = SKPhysicsBody(edgeLoopFrom: frame.insetBy(dx: 0, dy: -200))
         physicsWorld.contactDelegate = self
+        motionManager.startAccelerometerUpdates()
         
         ballLauncher.xScale = 0.5
         ballLauncher.yScale = 0.5
@@ -132,6 +136,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         if hasActiveBalls == false {
             advance()
+        }
+        
+        if let accelerometerData = motionManager.accelerometerData {
+            physicsWorld.gravity = CGVector(dx: accelerometerData.acceleration.x * 15, dy: -9.8)
         }
     }
     
